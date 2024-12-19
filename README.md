@@ -128,13 +128,17 @@ export default App;
 ## How to Run the App
 1. Create a React app using:
    ```bash
-   npx create-react-app theme-toggler
+   npm create vite@latest theme-toggler
    cd theme-toggler
    ```
 2. Replace files with the code provided above.
-3. Start the app:
+3. Install dependencies:
    ```bash
-   npm start
+   npm install
+   ```
+4. Start the app:
+   ```bash
+   npm run dev
    ```
 
 ---
